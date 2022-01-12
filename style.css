@@ -1,0 +1,111 @@
+/* Nav bar style */
+
+.div_container {
+    background: #fff;
+    box-shadow: 0 17px 39px rgb(0 0 0 / 5%);
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    opacity: 1;
+    animation-duration: 1s;
+}
+
+.div_container .tab {
+    position: relative;
+    padding: 14px 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.div_container .tab.active {
+    background: #ee9134;
+    color: #fff;
+}
+
+
+/* Plans style */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    animation-duration: 1s;
+}
+
+.container .plan {
+    background: #fff;
+    margin: 0 1rem;
+    box-shadow: 0 17px 39px rgb(0 0 0 / 5%);
+    transition: transform .3s ease;
+    transform: scale(1);
+    max-width: 21rem;
+    min-width: 21rem;
+    min-height: 447px;
+    z-index: 2;
+}
+
+.container .plan .heading {
+    height: 124px;
+    background: #f0d9c3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .plan .plan_desc {
+    height: 208px;
+    padding: 20px;
+    border-bottom: 1px solid #e5eaf4;
+}
+
+.container .plan .price_desc {
+    padding: 20px;
+    position: relative;
+}
+
+.container .plan .price_desc .price {
+    display: flex;
+    align-items: baseline;
+}
+
+.container .plan .price_desc .submit-button {
+    border: 1px solid #ee9134;
+    background-color: #ee9134;
+    border-radius: 0;
+    font-size: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding: 10px 44px;
+    width: 100%;
+    color: #fff;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+}
+
+.container .plan .price_desc .price del {
+    margin-left: auto;
+}
+
+.container .plan .heading .details {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.container .plan .heading .details .save_label {
+    margin-left: auto;
+    background: #ee9134;
+    padding: 0 8px;
+    color: #fff;
+    white-space: nowrap;
+}
+
